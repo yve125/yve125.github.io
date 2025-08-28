@@ -1,0 +1,110 @@
+ @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap");
+
+* {
+margin: 0;
+padding: 0;
+font-family: "IBM Plex Sans", sans-serif;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+* {
+user-select: none;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+}
+
+body {
+height: 100vh;
+background-color: #1a1a1a;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.profile-card {
+width: 400px;
+text-align: center;
+border-radius: 10px;
+overflow: hidden;
+}
+
+.card-header {
+background: #262626;
+padding: 60px 40px;
+}
+
+@keyframes animated-gradient{
+25%{
+background-position: left bottom;
+}
+50%{
+background-position: right bottom;
+}
+75%{
+background-position: right top;
+}
+100%{
+background-position: left top;
+}
+}
+
+.pic {
+animation: animated-gradient 2s linear infinite;
+display: inline-block;
+padding: 10px;
+background: linear-gradient(130deg, #ffffff, #262626);
+margin: auto;
+border-radius: 50%;
+background-size: 200% 200%;
+}
+
+.pic img {
+display: block;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+}
+
+.name {
+color: #ffffff;
+font-size: 28px;
+font-weight: 600;
+margin: 20px 0;
+}
+
+.desc {
+color: #808588;
+font-size: 18px;
+font-weight: 500;
+margin: 20px 0;
+}
+
+.fa-icon {
+width: 22px;
+height: 22px;
+margin: 0 17px;
+transition: 0.3s linear;
+filter: brightness(1);
+}
+
+.fa-icon:hover {
+filter: brightness(0.6);
+}
+
+.sm {
+display: flex;
+justify-content: center;
+margin: 30px 0;
+}
+
+.sm a {
+color: #ffffff;
+font-size: 22px;
+width: 56px;
+transition: .3s linear;
+}
+
+.sm a:hover {
+color: #808588;
