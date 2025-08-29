@@ -107,15 +107,15 @@ body::after {
   display: inline-block;
   padding: 8px;
   background: linear-gradient(130deg, 
-              rgba(74, 60, 110, 0.8), 
-              rgba(58, 105, 102, 0.8), 
-              rgba(33, 26, 49, 0.8));
+              rgba(135, 206, 250, 0.9), 
+              rgba(192, 192, 192, 0.8), 
+              rgba(25, 25, 112, 0.8));
   margin: auto;
   border-radius: 50%;
   background-size: 200% 200%;
-  box-shadow: 0 15px 35px rgba(74, 60, 110, 0.3),
+  box-shadow: 0 15px 35px rgba(135, 206, 250, 0.4),
               0 5px 15px rgba(0, 0, 0, 0.2),
-              inset 0 1px 0 rgba(255, 255, 255, 0.2);
+              inset 0 1px 0 rgba(255, 255, 255, 0.3);
 }
 
 .pic img {
